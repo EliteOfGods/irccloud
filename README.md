@@ -17,15 +17,15 @@ Requirements
   * Requests library
   
 ### For use in your own VPS
-Be sure to have `python-dev` installed in your machine.  
-Clone the repository with `git clone https://github.com/vijaiaeroastro/irccloud.git`  
-Enter into the cloned repository with `cd irccloud`  
-Install the requirements with `python -m pip install -r requirements.txt`  
-If the above command fails, install `python-pip`  
-Use the bash script `irccloud_cronjob` provided for ease of use  
-You can also specify everything on a `crontab` entry instead. Just type `crontab -e`, choose your favourite text editor  
-and add this to it (this will  be executed every hour):  
-`0 * * * * IRCCLOUD_USERNAME="your@email.address" IRCCLOUD_PASSWORD="your_password" python3 /home/irccloud/irccloud/irccloud.py >/dev/null 2>&1`
+- Be sure to have `python-dev` installed in your machine.  
+- Clone the repository with `git clone https://github.com/vijaiaeroastro/irccloud.git`  
+- Enter into the cloned repository with `cd irccloud`  
+- Install the requirements with `python -m pip install -r requirements.txt`  
+- If the above command fails, install `python-pip`  
+- Use the bash script `irccloud_cronjob` provided for ease of use  
+- You can also specify everything on a `crontab` entry instead. Just type `crontab -e`, choose your favourite text editor  
+and add this to it (this will  be executed every hour):
+  * `0 * * * * IRCCLOUD_USERNAME="your@email.address" IRCCLOUD_PASSWORD="your_password" python3 /home/irccloud/irccloud/irccloud.py >/dev/null 2>&1`
   
 License
 =======
